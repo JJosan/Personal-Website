@@ -3,7 +3,7 @@ import img from '../img/uwlogo.png';
 
 function Education() {
   return (
-    <section className="two">
+    <section style={{ backgroundColor: 'rgb(245, 245, 245)' }}>
       <div className="text">
           <h2>Education</h2>
           <p>I am currently attending the <strong>University of Washington</strong> Seattle campus. I am majoring 

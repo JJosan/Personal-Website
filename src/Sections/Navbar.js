@@ -19,7 +19,7 @@ function Navbar() {
   return (
     <div id='navbar'>
         <a href="#">Home</a>
-        <a href="https://drive.google.com/file/d/11lvLjTuMaRbhMHEbPEqLX7xRNFLhj1I9/view?usp=sharing" target="_blank">Resume</a>
+        <a href="https://drive.google.com/file/d/15fDrrX-US_U0CXTxv-t2DBNxPFvzYjDw/view?usp=sharing" target="_blank">Resume</a>
         <a href="https://github.com/JJosan" target="_blank">Github</a>
         <a href="https://www.linkedin.com/in/jason-nguyen-b35b231b0/" target="_blank">Linkedin</a>
         <a href="#bottom">Contact</a>

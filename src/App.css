@@ -25,6 +25,7 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
 
@@ -32,35 +33,13 @@ section {
   height: 100vh;
 }
 
-
 .one {
   height: 100vh;
-
-}
-
-.me {
-  text-align: center;
-}
-
-.two {
-  background-color: rgb(245, 245, 245);
-}
-
-.three {
-  background-color: rgb(226, 229, 222);
-  height: 60vh;
-}
-
-.four {
-  background-color: rgb(245, 245, 245);
 }
 
 .text {
   height: 100%;
   padding: 0 25% 0 25%;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
 }
 
 .text h2 {
@@ -75,7 +54,17 @@ section {
 }
 
 .text p {
-  padding: 15px 5% 15px 5%;
+  padding: 15px 0 15px 0;
+}
+
+.RiceGame h2 {
+  font-family: 'Lato';
+  font-size: 2rem;
+  padding: 15px 2% 0 2%;
+}
+
+.RiceGame p {
+  padding: 15px 25% 15px 25%;
 }
 
 section img {
@@ -83,7 +72,6 @@ section img {
   max-height: 30%;
   margin: 2% auto 2% auto;
 }
-
 
 li {
   list-style-type: none;
@@ -147,16 +135,13 @@ li {
   color: #fff;
 }
 
-.family {
-  background-color: #fff;
-  width: 50vh;
-  height: 30vh;
-  padding: 20px;
-  margin-left: 50vh;
-}
-
 hr {
   border-top: 1px solid #fff;
+}
+
+.PlayArea {
+  width: 70%;
+  height: 80%;
 }
 
 

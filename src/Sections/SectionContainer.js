@@ -4,6 +4,7 @@ import Education from './Education.js';
 import Skills from './Skills.js';
 import Projects from './Projects.js';
 import Bottom from './Bottom.js';
+import Rice from './Rice.js';
 
 function SectionContainer() {
   return (
@@ -12,6 +13,7 @@ function SectionContainer() {
       <Education />
       <Skills />
       <Projects />
+      <Rice />
       <Bottom />
     </div>
   );

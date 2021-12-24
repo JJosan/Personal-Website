@@ -2,7 +2,7 @@ import '../App.css';
 
 function Skills() {
   return (
-    <section className="three">
+    <section style={{ backgroundColor: 'rgb(226, 229, 222)' }}>
       <div className="text">
           <h2>Skills</h2>
           <p>Here are the languages and technologies that I have learned so far. This list will keep expanding as
@@ -18,6 +18,7 @@ function Skills() {
                       <li>R</li>
                       <li>HTML/CSS</li>
                       <li>JavaScript</li>
+                      <li>Python</li>
                   </ul>
               </div>
               <div>
@@ -30,11 +31,13 @@ function Skills() {
               <div>
                   <h3>Tools</h3>
                   <ul>
-                      <li>Visual Studio</li>
-                      <li>IntelliJ</li>
                       <li>Git/Github</li>
                       <li>SQL Server</li>
                       <li>Tableau</li>
+                      <li>Unity</li>
+                      <li>Blender</li>
+                      <li>Firebase</li>
+                      <li>Jest</li>
                   </ul>
               </div>
           </div>
