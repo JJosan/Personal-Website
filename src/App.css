@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.one h1 {
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.one h2 {
+  color: #fff;
+}
+
+section {
+  height: 70vh;
+  display: flex;
+  scroll-snap-align: start;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.container {
+  height: 100vh;
+}
+
+
+.one {
+  height: 100vh;
+
+}
+
+.me {
+  text-align: center;
+}
+
+.two {
+  background-color: rgb(245, 245, 245);
+}
+
+.three {
+  background-color: rgb(226, 229, 222);
+  height: 60vh;
+}
+
+.four {
+  background-color: rgb(245, 245, 245);
+}
+
+.text {
+  height: 100%;
+  padding: 0 25% 0 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.text h2 {
+  font-family: 'Lato';
+  font-size: 2rem;
+  padding: 15px 2% 0 2%;
+
+}
+
+.text h3 {
+  padding-bottom: 1%;
+}
+
+.text p {
+  padding: 15px 5% 15px 5%;
+}
+
+section img {
+  max-width: 30%;
+  max-height: 30%;
+  margin: 2% auto 2% auto;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+.skills {
+  margin: 5% auto 5% auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.skills div {
+  padding: 0 5% 0 5%;
+}
+
+.projects {
+  margin: 5% auto 5% auto;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.projects div {
+  margin: 1% 1% 1% 1%;
+  width: 50%;
+  height: 100%;
+  
+  background-size:     cover;                     
+  background-repeat:   no-repeat;
+  background-position: center center; 
+  border-radius: 10px;
+}
+
+.projects div h3 {
+  background-color: rgb(226, 229, 222);
+  border-radius: 10px 10px 0 0;
+}
+
+.bottom-page {
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h2 {
+  margin: 2rem;
+  color: #fff;
+}
+
+.contact p {
+  margin: 1rem;
+  color: #fff;
+}
+
+.family {
+  background-color: #fff;
+  width: 50vh;
+  height: 30vh;
+  padding: 20px;
+  margin-left: 50vh;
+}
+
+hr {
+  border-top: 1px solid #fff;
+}
+
+
+a:link {
+  color: rgb(0, 0, 0);
+}
+
+a:visited {
+  color: rgba(0, 0, 0, 0.808);
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.788)
+}
+
+.contact a:link {
+  color: #fff;
+}
+
+.contact a:visited {
+  color: #fff;
+}
+
+.contact a:hover {
+  color: rgba(255, 255, 255, 0.788)
+}
+
+
+#navbar {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 5px 0 5px;
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  transition: 0.3s;
+}
+
+/*Style the navbar links*/
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #fff;
+  color: black;
+}
