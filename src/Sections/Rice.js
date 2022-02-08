@@ -5,6 +5,8 @@ import { data } from '../firebase-config.js';
 import { setDoc, doc, onSnapshot, collection } from 'firebase/firestore';
 
 function Rice() {
+
+    const [d, setD] = useState(false);
     const [x, setX] = useState(0);
     const [y, setY] = useState(0);
     const [total, setTotal] = useState([]);
@@ -38,21 +40,27 @@ function Rice() {
     }
 
     function clicked() {
+        disappear();
         handleEdit();
         setX(randomWidth);
         setY(randomHeight);
+    }
+
+    function disappear() {
+        setD(true);
     }
 
     return (
     <section style={{ backgroundColor: 'rgb(226, 229, 222)' }}>
         <div className='RiceGame'>
             <h2>Rice</h2>
-            <p>Rice fields are an important part of my identity. My father, grandfather, and great-grandfather all harvested rice
-                in the rice fields to live another day. I am the first generation in my family to escape the cycle to find a better life.
-                When I advance in life, I will always remember the things that brought me this far.</p>    
+            <p>I want to dedicate a section to rice. Rice has a deep cultural meaning for myself and my family. Not only
+                is it our staple source of carbohidrates, rice has served as the source of income in my family for many generations.
+                When I make any accomplishments, I will always remember all the things that allowed me to reach this far.</p>    
         </div>
         <div className='PlayArea'>
             <img src={rice} onClick={clicked} style={{ position: 'relative', left: x + '%', top: y + '%'}}/>
+            <p hidden={d}>click me!</p>
         </div>
         <p>Total Rice Harvested: <strong>{num}</strong></p>
     </section>

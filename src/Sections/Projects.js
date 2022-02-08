@@ -20,7 +20,8 @@ function Projects() {
     <section style={{ backgroundColor: 'rgb(245, 245, 245)' }}>
         <div className="text">
             <h2>Projects</h2>
-            <p>Here are some personal projects that I have worked on / am working on.
+            <p>Here are some personal projects that I have worked on / am working on. There are other projects
+                on my Github.
             </p>
             <div className="projects">
                 <div onClick={discord} rel="noreferrer" style={{ backgroundImage:`url(${Discord})`}}>
