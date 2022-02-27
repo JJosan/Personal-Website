@@ -5,7 +5,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <div className='navbar'>
+      <div className='navbar'>
       <div>
         <div className='navbar_title'>
           <h1 className='navbar_title_name'>Jason Nguyen</h1>
@@ -25,7 +25,6 @@ function Navbar() {
         </nav>
       </div>
     </div>
-      
   );
 }
 

@@ -1,8 +1,12 @@
 import React from 'react';
+import './Professional.css';
+import Title from './Title/Title.js';
 
 function Professional() {
   return (
-    <div>Professional</div>
+    <div className='professional'>
+      <Title />
+    </div>
   );
 }
 

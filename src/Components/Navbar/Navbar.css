@@ -1,5 +1,3 @@
-/* when width == 1103, hide navbar and reveal the top bar  */
-
 .navbar {
     position: static;
     width: 23%;
