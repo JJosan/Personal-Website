@@ -1,22 +1,15 @@
 {
   "files": {
-    "main.css": "/Personal-Website/static/css/main.254f0c78.css",
-    "main.js": "/Personal-Website/static/js/main.a4377591.js",
+    "main.css": "/Personal-Website/static/css/main.c850aa16.css",
+    "main.js": "/Personal-Website/static/js/main.4e7fb13a.js",
     "static/js/787.cfd8f164.chunk.js": "/Personal-Website/static/js/787.cfd8f164.chunk.js",
-    "static/media/back.png": "/Personal-Website/static/media/back.099089fd6289d745b8e3.png",
-    "static/media/seams.jpg": "/Personal-Website/static/media/seams.ad6378f3c99d09f14232.jpg",
-    "static/media/node.jpg": "/Personal-Website/static/media/node.2c790bacae5d83404427.jpg",
-    "static/media/uwlogo.png": "/Personal-Website/static/media/uwlogo.a0d9aded635bef00f893.png",
-    "static/media/quest2.jpg": "/Personal-Website/static/media/quest2.93c78611be0fdb5f68c6.jpg",
-    "static/media/rice.png": "/Personal-Website/static/media/rice.d834aca59fa5af8c8c2c.png",
-    "static/media/DiscordLogo.JPG": "/Personal-Website/static/media/DiscordLogo.8d643875815f44c54a98.JPG",
     "index.html": "/Personal-Website/index.html",
-    "main.254f0c78.css.map": "/Personal-Website/static/css/main.254f0c78.css.map",
-    "main.a4377591.js.map": "/Personal-Website/static/js/main.a4377591.js.map",
+    "main.c850aa16.css.map": "/Personal-Website/static/css/main.c850aa16.css.map",
+    "main.4e7fb13a.js.map": "/Personal-Website/static/js/main.4e7fb13a.js.map",
     "787.cfd8f164.chunk.js.map": "/Personal-Website/static/js/787.cfd8f164.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.254f0c78.css",
-    "static/js/main.a4377591.js"
+    "static/css/main.c850aa16.css",
+    "static/js/main.4e7fb13a.js"
   ]
 }
