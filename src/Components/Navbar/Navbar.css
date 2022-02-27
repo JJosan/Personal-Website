@@ -1,0 +1,77 @@
+/* when width == 1103, hide navbar and reveal the top bar  */
+
+.navbar {
+    position: static;
+    width: 23%;
+    height: 100vh;
+    background-color: #DEEFE7;
+    display: flex;
+}
+
+.navbar > div {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    position: relative;
+    padding-left: 23%;
+    padding-top: 100px;
+}
+
+.navbar_title {
+    margin-bottom: 40px;
+}
+
+.navbar_title_name {
+    letter-spacing: 0.2px;
+    font-size: 20px;
+    padding-bottom: 3px;
+    margin: 0;
+    border: 0;
+    color: #002333;
+}
+
+.navbar_title_position {
+    letter-spacing: 0.2px;
+    font-size: 20px;
+    padding-bottom: 3px;
+    margin: 0;
+    border: 0;
+    color: #159A9C;
+}
+
+.navbar_links > div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar_links a {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: #878f97b4;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.navbar_links a:hover {
+    color: #002333;
+}
+
+.navbar_links a.active {
+    color: #002333;
+}
+
+@media screen and (max-width: 1210px) {
+    .navbar > div {
+      padding-left: 15%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar {
+        display: none;
+    }
+}
