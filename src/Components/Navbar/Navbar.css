@@ -1,5 +1,5 @@
 .navbar {
-    position: static;
+    position: fixed;
     width: 23%;
     height: 100vh;
     background-color: #DEEFE7;
@@ -22,8 +22,10 @@
 
 .navbar_title_name {
     letter-spacing: 0.2px;
+    font-weight: 400;
     font-size: 20px;
     padding-bottom: 3px;
+    font-weight: bold;
     margin: 0;
     border: 0;
     color: #002333;
@@ -32,6 +34,7 @@
 .navbar_title_position {
     letter-spacing: 0.2px;
     font-size: 20px;
+    font-weight: 400;
     padding-bottom: 3px;
     margin: 0;
     border: 0;
@@ -50,7 +53,6 @@
     padding-bottom: 4px;
     text-decoration: none;
     color: #878f97b4;
-    font-weight: 700;
     font-size: 17px;
 }
 
@@ -62,13 +64,13 @@
     color: #002333;
 }
 
-@media screen and (max-width: 1210px) {
+@media screen and (max-width: 1400px) {
     .navbar > div {
       padding-left: 15%;
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     .navbar {
         display: none;
     }

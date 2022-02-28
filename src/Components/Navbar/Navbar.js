@@ -17,10 +17,10 @@ function Navbar() {
             <NavLink to='/Personal-Website/personal/'>Personal</NavLink>
           </div>
           <div>
-            <Link to='/Personal-Website/'>Resume</Link>
-            <Link to='/Personal-Website/'>Linkedin</Link>
-            <Link to='/Personal-Website/'>Github</Link>
-            <Link to='/Personal-Website/'>Contact</Link>
+            <a href='#'>Resume</a>
+            <a href='#'>Linkedin</a>
+            <a href='#'>Github</a>
+            <a href='#'>Contact</a>
           </div>
         </nav>
       </div>

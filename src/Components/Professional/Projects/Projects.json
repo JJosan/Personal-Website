@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Spider-Man VR Sandbox",
+        "description":"Playable virtual reality environment with fully functioning spider-man powers such as web shooting and wall climbing using the Unity game engine.",
+        "imageurl":"https://i.imgur.com/tgncycV.png",
+        "githublink":""
+    },
+    {
+        "name":"Game Information Discord Bot",
+        "description":"Discord bot which retrieves real time data for the video game \"Black Desert Online\" using Google Sheets API.",
+        "imageurl":"https://i.imgur.com/1Xo2wwc.png",
+        "githublink":""
+    },
+    {
+        "name":"Image Resizer GUI",
+        "description":"Shrinks images by reducing the least noticable portions of an image first.",
+        "imageurl":"https://upload.wikimedia.org/wikipedia/commons/c/cb/Broadway_tower_edit.jpg",
+        "githublink":""
+    },
+    {
+        "name":"Youtube Downloader GUI",
+        "description":"Downloads Youtube videos in MP3 or MP4 file format by using yt-dlp and ffmpeg.",
+        "imageurl":"https://assets.turbologo.com/blog/en/2019/10/19084944/youtube-logo-illustration.jpg",
+        "githublink":""
+    }
+]
