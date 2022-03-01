@@ -1,9 +1,9 @@
-.title {
+.personaltitle {
     margin: 100px 0 20% 0;
     flex-direction: column;
 }
 
-.title > h1 {
+.personaltitle > h1 {
     letter-spacing: 0.2px;
     font-size: 20px;
     padding-bottom: 3px;
@@ -12,7 +12,7 @@
     color: #002333;
 }
 
-.title > h2 {
+.personaltitle > h2 {
     letter-spacing: 0.2px;
     font-size: 18px;
     padding-bottom: 3px;

@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Navbar.css';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 function Navbar() {
+
+
+  // have these janky variables because react router kinda sucks on github pages hosting
+  const [val, setVal] = useState(true);
+
+  function firstLoad() {
+    if (val == true) {
+      setVal(false);
+    }
+  }
+
   return (
       <div className='navbar'>
       <div>
@@ -13,10 +24,10 @@ function Navbar() {
         </div>
         <nav className='navbar_links'>
           <div>
-            <NavLink to='/Personal-Website/'>Professional</NavLink>
-            <NavLink to='/Personal-Website/personal/'>Personal</NavLink>
+            <NavLink to='/Personal-Website/' style={val? {color: '#002333'} : {}} onClick={firstLoad}>Professional</NavLink>
+            <NavLink to='/Personal-Website/personal/' onClick={firstLoad}>Personal</NavLink>
           </div>
-          <div>
+          <div className='navbar_pages'>
             <a href='#'>Resume</a>
             <a href='#'>Linkedin</a>
             <a href='#'>Github</a>

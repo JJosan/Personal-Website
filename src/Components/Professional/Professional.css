@@ -8,7 +8,6 @@
 
 .professional > div {
     padding: 0 80px 0 80px;
-    position: relative;
     width: 100%;
     display: flex;
 }
@@ -20,6 +19,7 @@
 
 .professional_details {
     width: 40%;
+    margin-bottom: 5vh;
 }
 
 .professional_image {
@@ -33,12 +33,12 @@
     object-fit: cover;
 }
 
-.professional_decription {
+.professional_description {
     width: 50%;
     margin-top: 35%;
 }
 
-.professional_decription div {
+.professional_description div {
     text-align: left;
 }
 
@@ -72,15 +72,15 @@
     color: #002333;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 800px) {
     .professional > div {
         flex-direction: column;
         padding: 10px;
     }
-    .professional_image, .professional_details, .professional_decription {
+    .professional_image, .professional_details, .professional_description {
         width: 100%;
     }
-    .professional_decription {
+    .professional_description {
         margin-top: 5%;
     }
     .professional_details {

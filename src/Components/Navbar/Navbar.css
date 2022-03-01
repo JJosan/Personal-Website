@@ -4,6 +4,7 @@
     height: 100vh;
     background-color: #DEEFE7;
     display: flex;
+    z-index: 1;
 }
 
 .navbar > div {

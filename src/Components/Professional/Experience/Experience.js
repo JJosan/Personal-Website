@@ -14,7 +14,7 @@ function Experience() {
           <hr />
           <h1>Experience</h1>
         </div>
-        <div className='professional_decription'>
+        <div className='professional_description'>
           <Carousel
             infiniteLoop={true}
             autoPlay={false}

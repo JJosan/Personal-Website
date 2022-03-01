@@ -1,0 +1,20 @@
+.ricefield_play {
+    height: 60vh;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ricefield_info {
+    margin-top: 3vh;
+    width: 80%;
+}
+
+.ricefield_ricecount {
+    padding-top: 2%;
+}

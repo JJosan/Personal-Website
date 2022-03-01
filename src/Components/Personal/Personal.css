@@ -1,0 +1,26 @@
+.personal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.personal > div {
+    padding: 0 80px 0 80px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+.personal hr {
+    border-top: 2px solid #159A9C;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .personal > div {
+        flex-direction: column;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,24 @@
+.summary {
+    width: 100%;
+}
+
+.summary > div {
+    width: 100%;
+}
+
+.summary_text {
+    padding-top: 20px;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.summary_header > h1 {
+    letter-spacing: 0.2px;
+    font-size: 25px;
+    padding-bottom: 3px;
+    font-weight: 400;
+    margin: 0;
+    border: 0;
+    color: #002333;
+}
