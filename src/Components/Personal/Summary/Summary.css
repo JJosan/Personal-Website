@@ -10,7 +10,9 @@
     padding-top: 20px;
     height: 60vh;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
 }
 
 .summary_header > h1 {

@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar/Navbar.js';
 import SmallNavbar from './Components/SmallNavbar/SmallNavbar.js';
 import Professional from './Components/Professional/Professional.js';
 import Personal from './Components/Personal/Personal.js';
+import Contact from './Components/Contact/Contact.js';
 
 // do some things with react reveal to make it look cooler
 
@@ -19,7 +20,7 @@ function App() {
           <Route exact path='/Personal-Website/personal' element={ <Personal /> }/>
         </Routes>
       </div>
-      
+      <Contact />
 
     </div>
   );
