@@ -1,18 +1,14 @@
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
 import './Navbar.css';
 import { NavLink } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 
 function Navbar() {
 
-
-  // have these janky variables because react router kinda sucks on github pages hosting
-  const [val, setVal] = useState(true);
-
-  function firstLoad() {
-    if (val == true) {
-      setVal(false);
-    }
+  function ScrollUp() {
+    window.scrollTo({
+      top: 0,
+    });
   }
 
   return (
@@ -25,8 +21,8 @@ function Navbar() {
           </div>
           <nav className='navbar_links'>
             <div>
-              <NavLink to='/Personal-Website/' style={val ? { color: '#002333' } : {}} onClick={firstLoad}>Professional</NavLink>
-              <NavLink to='/Personal-Website/personal/' onClick={firstLoad}>Personal</NavLink>
+              <NavLink to='/Personal-Website' onClick={ScrollUp}>Professional</NavLink>
+              <NavLink to='/Personal-Website/personal' onClick={ScrollUp}>Personal</NavLink>
             </div>
             <div className='navbar_pages'>
               <a href='https://drive.google.com/file/d/1EaonZgXi1DyLlS_mCPnDGD6Z2aMY7P1f/view?usp=sharing' target="_blank" rel='noreferrer'>Resume</a>

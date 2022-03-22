@@ -7,8 +7,6 @@ import Professional from './Components/Professional/Professional.js';
 import Personal from './Components/Personal/Personal.js';
 import Contact from './Components/Contact/Contact.js';
 
-// do some things with react reveal to make it look cooler
-
 function App() {
   return (
     <div className='app'>
@@ -21,7 +19,6 @@ function App() {
         </Routes>
       </div>
       <Contact />
-
     </div>
   );
 }

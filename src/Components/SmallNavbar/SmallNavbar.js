@@ -12,6 +12,12 @@ function SmallNavbar() {
     setNavops(!navops);
   }
 
+  function ScrollUp() {
+    window.scrollTo({
+      top: 0,
+    });
+  }
+
   return (
     <Fade top>
       <div className="smallnavbar">
@@ -28,8 +34,8 @@ function SmallNavbar() {
             <a href='#bottom'>Contact</a>
           </div>
           <div className='smallnavbar_internallinks' >
-            <NavLink to='/Personal-Website/'>Professional</NavLink>
-            <NavLink to='/Personal-Website/personal/'>Personal</NavLink>
+            <NavLink to='/Personal-Website' onClick={ScrollUp}>Professional</NavLink>
+            <NavLink to='/Personal-Website/personal' onClick={ScrollUp}>Personal</NavLink>
           </div>
         </div>
         <div className='smallnavbar_smaller'>
@@ -43,8 +49,8 @@ function SmallNavbar() {
           </Fade>
           <Fade left>
             <div className='smallnavbar_internallinks' style={!navops ? { display: "none" } : { display: "block" }}>
-              <NavLink to='/Personal-Website/'>Professional</NavLink>
-              <NavLink to='/Personal-Website/personal/'>Personal</NavLink>
+              <NavLink to='/Personal-Website' onClick={ScrollUp}>Professional</NavLink>
+              <NavLink to='/Personal-Website/personal' onClick={ScrollUp}>Personal</NavLink>
             </div>
           </Fade>
 

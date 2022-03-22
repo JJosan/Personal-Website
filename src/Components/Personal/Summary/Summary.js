@@ -4,8 +4,8 @@ import Fade from 'react-reveal/Fade';
 
 function Summary() {
   return (
-    <div className='summary'>
-      <Fade bottom>
+    <Fade bottom>
+      <div className='summary'>
         <div className='summary_header'>
           <hr />
           <h1>About Me</h1>
@@ -14,8 +14,8 @@ function Summary() {
           <p>Sleep is good for the mind</p>
           <p>Food is good for the soul</p>
         </div>
-      </Fade>
-    </div>
+      </div>
+    </Fade>
   );
 }
 

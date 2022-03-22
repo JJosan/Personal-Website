@@ -53,8 +53,8 @@ function RiceField() {
 
 
     return (
-        <div className='ricefield'>
-            <Fade bottom>
+        <Fade bottom>
+            <div className='ricefield'>
                 <div>
                     <hr />
                     <h1>Rice Field</h1>
@@ -69,14 +69,11 @@ function RiceField() {
                 </div>
                 <p className='ricefield_ricecount'>Total Rice Harvested: <strong>{num}</strong></p>
                 <div className='ricefield_play'>
-                    {/* <img src={riceplant} onClick={clicked} style={{ position: 'relative', left: x + '%', top: y + '%'}}/> */}
                     <img src={riceplant} onClick={clicked} style={{ width: '100px', position: 'relative', left: x + '%', top: y + '%' }} />
                     <p hidden={d}>click me!</p>
                 </div>
-            </Fade>
-
-
-        </div>
+            </div>
+        </Fade>
     );
 }
 
