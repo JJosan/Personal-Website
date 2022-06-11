@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Personal-Website/static/css/main.e21e1695.css",
+    "main.js": "/Personal-Website/static/js/main.0a1a946f.js",
+    "static/js/787.cfd8f164.chunk.js": "/Personal-Website/static/js/787.cfd8f164.chunk.js",
+    "static/media/riceplant.png": "/Personal-Website/static/media/riceplant.f4228993fc8ba5f48ff0.png",
+    "index.html": "/Personal-Website/index.html",
+    "main.e21e1695.css.map": "/Personal-Website/static/css/main.e21e1695.css.map",
+    "main.0a1a946f.js.map": "/Personal-Website/static/js/main.0a1a946f.js.map",
+    "787.cfd8f164.chunk.js.map": "/Personal-Website/static/js/787.cfd8f164.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e21e1695.css",
+    "static/js/main.0a1a946f.js"
+  ]
+}

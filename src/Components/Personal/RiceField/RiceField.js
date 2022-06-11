@@ -63,7 +63,7 @@ function RiceField() {
                     I want to dedicate a section to rice.
                     Rice has a deep cultural meaning for myself
                     and my family. Not only is it our staple
-                    source of carbohidrates, rice has served
+                    source of carbohydrates, rice has served
                     as the source of income in my family for
                     many generations.
                 </div>
