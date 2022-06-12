@@ -24,3 +24,8 @@
     border: 0;
     color: #002333;
 }
+
+.summary_body {
+    display: flex;
+    gap: 20%;
+}
